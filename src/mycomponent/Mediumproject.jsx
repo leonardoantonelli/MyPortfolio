@@ -18,7 +18,7 @@ function MediumProject() {
             {" "}
             Front-end Develop{" "}
           </h5>{" "}
-          <p className="px-5 mx-5 myTextWhite ">
+          <p className=" myTextWhite px-2 mx-2 ">
             Il progetto Medium è stato ricreare fedelmente il sito ufficiale
             medium.com, focalizandosi sulle tecniche basiche di CSS e
             Javascript. Durante il corso Epicode ho potuto approfondire e fare

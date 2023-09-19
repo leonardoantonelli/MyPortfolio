@@ -174,163 +174,7 @@ label:hover {
   }
 }
 
- /*  CSS CARD PROJECT
-  */ 
-  .containerp{
-  position: relative;
-}
-
-.containerp .cardp{
-  position: relative;
-  width: 320px;
-  height: 450px;
-  background: $blackdark ;
-  border-radius: 20px;
-  overflow: hidden;
-  -webkit-box-shadow: 0px 11px 15px 5px rgba(0,0,0,0.45); 
-box-shadow: 0px 11px 15px 5px rgba(0,0,0,0.45);
-}
-
-.containerp .cardp:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: $red;
-  clip-path: circle(150px at 80% 20%);
-  transition: 0.5s ease-in-out;
-}
-
-.containerp .cardp:hover:before{
-  clip-path: circle(300px at 80% -20%);
-}
-
-.containerp .cardp:after{
- /**/ content: 'Silv'; 
-  position: absolute;
-  top: 30%;
-  left: -20%;
-  font-size: 12em;
-  font-weight: 800;
-  font-style: italic;
-  color: $blue
-}
-
-.containerp .cardp .imgBx{
-position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10000;
-  width: 100%;
-  height: 220px;
-  transition: 0.5s;
-}
-
-.containerp .cardp:hover .imgBx{
-  top: 0%;
-  transform: translateY(0%);
-    
-}
-
-.containerp .cardp .imgBx img{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-25deg);
-  width: 270px;
-}
-
-.containerp .cardp .contentBx{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  transition: 1s;
-  z-index: 10;
-}
-
-.containerp .cardp:hover .contentBx{
-  height: 210px;
-}
-
-.containerp .cardp .contentBx h2{
-  position: relative;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: #fff;
-  margin: 0;
-}
-
-.containerp .cardp .contentBx .size, .containerp .cardp .contentBx .color {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 20px;
-  transition: 0.5s;opacity: 0;
-  visibility: hidden;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.containerp .cardp:hover .contentBx .size{
-  opacity: 1;
-  visibility: visible;
-  transition-delay: 0.5s;
-}
-
-.containerp .cardp:hover .contentBx .color{
-  opacity: 1;
-  visibility: visible;
-  transition-delay: 0.6s;
-}
-
-.containerp .cardp .contentBx .size h3{
-  color: #fff;
-  font-weight: 300px;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-right: 10px;
-}
-
-.containerp .cardp .contentBx .size img{
-  width: 26px;
-  height: 26px;
-  
-  margin: 0 5px;
-  transition: 0.5s;
-
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-
-
-
-.containerp .cardp .contentBx a{
-  display: inline-block;
-  padding: 10px 20px;
-  background: #fff;
-  border-radius: 4px;
-  margin-top: 10px;
-  text-decoration: none;
-  font-weight: 600;
-  color: #111;
-  opacity: 0;
-  transform: translateY(50px);
-  transition: 0.5s;
-  margin-top: 0;
-}
-
-.containerp .cardp:hover .contentBx a{
-  opacity: 1;
-  transform: translateY(0px);
-  transition-delay: 0.75s;
-  
-}
+ 
 
 // Css Nuovo
  // up and down smart1 e smart2
@@ -396,7 +240,6 @@ margin-bottom: 20px;
 
    .mybutton{
     width: 200px;
-   
     height: 50px;
   
    }
@@ -427,6 +270,22 @@ margin-bottom: 20px;
   text-decoration: none;
 }
 
-.mymargintop{
+ .btn-grad2 {
+            background-image: linear-gradient(to right, $red 0%, $blue  51%, $red 100%);
+             width: 200px;
+    height: 50px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #000000;
+            border-radius: 10px;
+            display: block;
+          }
 
-}
+          .btn-grad2:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }

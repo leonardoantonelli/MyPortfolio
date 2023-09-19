@@ -18,20 +18,17 @@ function Nikeshop() {
             {" "}
             Ui design{" "}
           </h5>{" "}
-          <p className="px-5 mx-5 myTextWhite ">
+          <p className="px-2 mx-2 myTextWhite ">
             Progetto di creazione di uno shop onlinee che si occupa della
-            vendita di scarpe, un esercizio utile per apprendere e migliorare
+            vendita di scarpe, un esercizio utile per apprendere e migliore
             tutte le features di React, lavorarando per componenti e funzioni.
           </p>
-          <button className="btn-grad mybutton d-flex align-content-center justify-content-center">
-            {" "}
-            <a
-              href="https://github.com/leonardoantonelli/MyCapstone1 "
-              className="text-decoration-none myTextWhite"
-            >
-              <h5 className="fw-bold"> Visita </h5>
-            </a>{" "}
-          </button>
+          <a
+            href="https://github.com/leonardoantonelli/MyCapstone1 "
+            className="text-decoration-none myTextWhite"
+          >
+            <button className="btn-grad2 fw-bold mb-6">Visita</button>
+          </a>
         </Col>
         <Col
           className="d-flex aligh-items-center text-center my-5 flex-column

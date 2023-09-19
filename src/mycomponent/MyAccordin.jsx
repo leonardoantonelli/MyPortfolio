@@ -12,32 +12,40 @@ function MyAccordin() {
       >
         My Skill Set:
       </h2>
-      <Row className="mt-6 d-sm-flex flex-sm-column align-items-sm-center justify-sm-content-center d-lg-flex flex-lg-row ">
-        <Col className="mycard ">
-          {" "}
-          <img src={icon1} alt="" className="h-50" />
-          <h4>Grafic Design</h4>
-          <p>
-            Nato come grafico e renderista sono appassiato a tutto ciò che
-            comprende la comunicione visiva e multimediale.
-          </p>
-        </Col>
-        <Col className="mycard ">
-          <img src={icon2} alt="" className="h-50" />
-          <h4>Web Design</h4>
-          <p>
-            Uno dei miei punti forti è senza dubbio la passione e lo studio che
-            ci metto nella UI e UX Design.
-          </p>
-        </Col>
-        <Col className="mycard ">
-          <img src={icon3} alt="" className="h-50" />
-          <h4>Creatività</h4>
-          <p>
+      <Row className="mt-6 d-sm-flex flex-md-column align-items-md-center justify-md-content-center d-lg-flex flex-lg-row ">
+        <Col className="d-flex flex-column align-items-center justify-content-center">
+          <div className="mycard ">
             {" "}
-            Mi piace pensare di essere un "Architetto della creatività", dalle
-            mille idee, versatile e soprattutto lanciato a nuove esperienze.
-          </p>
+            <img src={icon1} alt="" className="h-50" />
+            <h4>Grafic Design</h4>
+            <p>
+              Nato come grafico e renderista sono appassiato a tutto ciò che
+              comprende la comunicione visiva e multimediale.
+            </p>
+          </div>
+        </Col>
+        <Col className="d-flex flex-column align-items-center justify-content-center">
+          <div className="mycard ">
+            {" "}
+            <img src={icon2} alt="" className="h-50" />
+            <h4>Web Design</h4>
+            <p>
+              Uno dei miei punti forti è senza dubbio la passione e lo studio
+              che ci metto nella UI e UX Design.
+            </p>
+          </div>
+        </Col>
+        <Col className="d-flex flex-column align-items-center justify-content-center w-100">
+          <div className="mycard ">
+            {" "}
+            <img src={icon3} alt="" className="h-50" />
+            <h4>Creatività</h4>
+            <p>
+              {" "}
+              Mi piace pensare di essere un "Architetto digitale", dalle mille
+              idee .
+            </p>
+          </div>
         </Col>
       </Row>
       <Row>
@@ -45,7 +53,7 @@ function MyAccordin() {
           <div class="tabs">
             <div class="tab">
               <label class="tab-label btn-grad" for="chck1">
-                ADOBE
+                ADOBE SUITE
               </label>
               <div className="tab-content d-flex flex-column text-center ">
                 <h5 className=" ">

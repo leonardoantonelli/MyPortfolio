@@ -91,3 +91,50 @@ background: rgb(15,15,15);
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
+//mobile dyamic text
+
+.dynamic-txts2{
+       
+    line-height: 100px;
+      height: 43px;
+ overflow: hidden;
+}
+.dynamic-txts2 ul span{
+     line-height: 120px !important;
+}
+
+.dynamic-txts2 li{
+  list-style: none;
+     position: relative;
+     top: 0;
+ animation: slide2 21s steps(3) infinite;
+}
+@keyframes slide2 {
+  100%{
+    top: -150px;
+  }
+}
+
+.dynamic-txts2 li p{
+  position: relative;
+
+
+}
+.dynamic-txts2 li p::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+background: rgb(15,15,15);
+  border-left: 2px solid #FC6D6D;
+  animation: typing2 7s steps(16) infinite;
+
+}
+@keyframes typing2 {
+   40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }}

@@ -14,7 +14,7 @@ export default function App() {
   return (
     <MDBFooter
       id="contact"
-      className="myBlackDarkBg myTextWhite my-5  text-white "
+      className="myBlackDarkBg myTextWhite my-5 text-white "
     >
       <MDBContainer className="p-4 pb-0 ">
         <Row>
@@ -28,23 +28,23 @@ export default function App() {
             className="d-flex flex-column fs-5
            "
           >
-            <h5>
+            <h6>
               <a
                 href=" https://github.com/leonardoantonelli"
                 className="text-decoration-none myTextWhite"
               >
                 <FiGithub /> @leonardoantonelli{" "}
               </a>
-            </h5>
-            <h5>
+            </h6>
+            <h6>
               <a
                 href="mailto:antonellileonardodesign@gmail.com "
                 className="textdecorationnone myTextWhite"
               >
                 <FiMessageCircle /> antonellileonardodesign@gmail.com{" "}
               </a>
-            </h5>
-            <h5>
+            </h6>
+            <h6>
               {" "}
               <a
                 href="tel:3285405551"
@@ -52,7 +52,7 @@ export default function App() {
               >
                 <FiPhone /> 3285405551
               </a>
-            </h5>
+            </h6>
           </Col>
           <Col></Col>{" "}
         </Row>

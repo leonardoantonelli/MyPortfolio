@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import MyAccordin from "./MyAccordin";
 import Footer from "./Footer";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import Silv from "./SilvProject";
 import { Link } from "react-router-dom";
 import { BrowserRouter, Switch, Route, Routes } from "react-router-dom";
@@ -15,13 +16,14 @@ function ColorSchemesExample() {
 
   return (
     <>
-      <BrowserRouter>
-        <Navbar className="myBlackDarkBg myTextWhite shadow">
-          <Container>
-            <Navbar.Brand href="#home" className="fs-1 fw-bolder myTextWhite">
-              <h1>Leonardo Antonelli </h1>
-            </Navbar.Brand>
-            <Nav className="me-auto fs-4 d-sm-none d-md-flex">
+      <Navbar expand="lg" className="bg-body-tertiary">
+        <Container>
+          <Navbar.Brand href="#home">
+            <h1>Leonardo Antonelli </h1>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="myWhiteBg myTextWhite " />
+          <Navbar.Collapse id="basic-navbar-nav" className="myTextWhite ">
+            <Nav className="me-auto myTextWhite">
               <Nav.Link
                 href="#skills"
                 className={
@@ -56,15 +58,9 @@ function ColorSchemesExample() {
                 Contatti
               </Nav.Link>
             </Nav>
-          </Container>
-        </Navbar>
-
-        <Routes>
-          <Route path="/skills" element={<MyAccordin />} />
-          <Route path="/contatti" element={<Footer />} />
-          <Route path="/projects" element={<Silv />} />
-        </Routes>
-      </BrowserRouter>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </>
   );
 }

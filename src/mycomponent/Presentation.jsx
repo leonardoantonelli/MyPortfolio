@@ -6,18 +6,26 @@ function Presentation() {
     <>
       <Container id="home">
         <Row className=" d-flex aligh-items-center justify-content-between ">
-          <Col className=" d-flex flex-column justify-content-center">
-            <p className="myTextBlu fw-bold">Welcome to my Portfolio</p>
-            <h1 className="myTextWhite "> Mi chiamo Leonardo Antonelli </h1>
+          <Col
+            xs={12}
+            md={8}
+            className=" px-2 mx-2 d-flex flex-column justify-content-center"
+          >
+            <p className="myTextBlu fw-bold px-2 mx-2">
+              Welcome to my Portfolio
+            </p>
+            <h2 className="myTextWhite px-2 mx-2 ">
+              {" "}
+              Mi chiamo Leonardo Antonelli{" "}
+            </h2>
             <div
               className="d-flex 
             "
             >
-              {" "}
-              <h3 className="static-txt display-6 myTextWhite d-sm-none d-md-flex">
+              <h3 className="static-txt display-6 myTextWhite px-2 mx-2 d-none d-lg-block ">
                 sono un{" "}
               </h3>
-              <ul className="dynamic-txts myTextRed display-6 fw-bold d-sm-none d-md-block">
+              <ul className="dynamic-txts myTextRed display-6 fw-bold d-none d-lg-block">
                 <li>
                   <p>Grafic Designer</p>{" "}
                 </li>
@@ -28,8 +36,20 @@ function Presentation() {
                   <p>3D Model Lover</p>{" "}
                 </li>
               </ul>
+
+              <ul className="dynamic-txts2 myTextRed display-6 fw-bold  d-lg-none">
+                <li>
+                  <p>Grafic Designer</p>{" "}
+                </li>
+                <li>
+                  <p>Junior Front-End Dev</p>{" "}
+                </li>
+                <li>
+                  <p>3D Model Lover</p>{" "}
+                </li>
+              </ul>
             </div>
-            <p className="myTextWhite">
+            <p className="myTextWhite px-2 mx-2">
               Sono un giovane designer, laureato in Disegno Industriale / Design
               e Progettazzione nell'Università di Roma La Sapienza. Ho
               frequentato il corso di Front-End e Back-end presso la scuola
@@ -38,15 +58,15 @@ function Presentation() {
               completo dello sviluppo di pagine Web.
             </p>
             <a href=" mailto:antonellileonardodesign@gmail.com">
-              <button className="btn-grad mybutton d-flex align-content-center justify-content-center">
+              <button className="btn-grad2 px-2 mx-2 fw-bold">
                 {" "}
-                <h5 className="fw-bold"> Contattami </h5>
+                Contattami
               </button>
             </a>
           </Col>
 
           <Col className=" d-flex justify-content-center align-content-center">
-            <img src={imgcv} alt="" className="w-100 p-5" />
+            <img src={imgcv} alt="" className="w-100 " />
           </Col>
         </Row>
       </Container>

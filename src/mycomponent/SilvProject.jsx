@@ -19,13 +19,13 @@ function SilvProject() {
           My Projects:
         </h2>
 
-        <Col className=" d-flex align-items-center flex-column">
+        <Col className=" d-flex align-items-center flex-column mb-3">
           <h2 className="myTextBlu fw-bolder"> Silv</h2>
           <h5 className="myTextRed d-flex fw-bolder justify-content-center">
             {" "}
             Ui design{" "}
           </h5>
-          <p className="px-5 mx-5 myTextWhite ">
+          <p className=" myTextWhite px-2 mx-2 ">
             Il progetto Silv si è basato sulla ricerca e studio di un'estetica
             web che si potesse adattare all'azienda produttrice di creme che ha
             già una brand identity forte. Il progetto consiste in una
@@ -33,14 +33,20 @@ function SilvProject() {
             storia dell'azienda, una carrellata di quattro prodotti e una
             section che parla dello staff.
           </p>
-          <button className="btn-grad mybutton d-flex align-content-center justify-content-center">
-            {" "}
-            <h5 className="fw-bold"> Visita </h5>
-          </button>
+          <a
+            href="https://github.com/leonardoantonelli/ "
+            className="text-decoration-none myTextWhite"
+          >
+            <button className="btn-grad2 fw-bold mb-6">Visita</button>
+          </a>
         </Col>
-        <Col className=" d-flex align-items-center justify-content-center flex-m-flex ">
-          <img src={smart1} alt="" className="vert-move" />
-          <img src={smart2} alt="" className=" vert-move2" />
+        <Col
+          xs={12}
+          md={6}
+          className=" d-flex align-items-center justify-content-center flex-m-flex "
+        >
+          <img src={smart1} alt="" className="vert-move w-50" />
+          <img src={smart2} alt="" className=" vert-move2 w-50" />
         </Col>
       </Row>
       <Row className="d-flex  align-items-center my-3 ">

@@ -42,7 +42,7 @@ function BaymishProject() {
             {" "}
             Grafic Design{" "}
           </h5>{" "}
-          <p className="px-5 mx-5 myTextWhite ">
+          <p className="px-2 mx-2 myTextWhite ">
             Lavorando sulla comunicazione social di Baymish, neo brand di
             Jewllery Design, ho sviluppato moodboard e foto per i vari social,
             seguendo la mia passione per la fotografia e l'editing.
@@ -56,7 +56,7 @@ function BaymishProject() {
           className=" d-flex align-items-center justify-content-evenly "
         >
           <img src={imglogo} alt="" />
-          <img src={smartph} alt="" className="imgsmart " />
+          <img src={smartph} alt="" className="w-50" />
         </Col>
         <Col>
           <MDBCarousel>
@@ -67,7 +67,7 @@ function BaymishProject() {
               alt="..."
             />
             <MDBCarouselItem
-              className=" d-block dimens"
+              className=" d-block dimens "
               itemId={2}
               src={img14}
               alt="..."
@@ -78,7 +78,7 @@ function BaymishProject() {
               src={img15}
               alt="..."
             />
-          </MDBCarousel>{" "}
+          </MDBCarousel>
         </Col>
       </Row>
     </>
