@@ -23,7 +23,7 @@ export default function App() {
             {" "}
             <p className="display-3"> Contattami</p>
           </Col>
-          <Col></Col>{" "}
+          <Col></Col>
           <Col
             className="d-flex flex-column fs-5
            "
@@ -54,6 +54,7 @@ export default function App() {
               </a>
             </h5>
           </Col>
+          <Col></Col>{" "}
         </Row>
       </MDBContainer>
     </MDBFooter>

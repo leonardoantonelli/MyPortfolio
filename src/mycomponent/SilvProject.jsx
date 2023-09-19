@@ -27,10 +27,11 @@ function SilvProject() {
           </h5>
           <p className="px-5 mx-5 myTextWhite ">
             Il progetto Silv si è basato sulla ricerca e studio di un'estetica
-            web che si potesse adattare al brand che ha già una brand identity
-            forte. Il progetto consiste in una landing-page composto di una main
-            section d'impatto, una breve storia dell'azienda, una carrellata di
-            quattro prodotti e una section che parla dello staff.
+            web che si potesse adattare all'azienda produttrice di creme che ha
+            già una brand identity forte. Il progetto consiste in una
+            landing-page composta di una main section d'impatto, una breve
+            storia dell'azienda, una carrellata di quattro prodotti e una
+            section che parla dello staff.
           </p>
           <button className="btn-grad mybutton d-flex align-content-center justify-content-center">
             {" "}

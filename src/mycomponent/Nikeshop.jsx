@@ -20,7 +20,7 @@ function Nikeshop() {
           </h5>{" "}
           <p className="px-5 mx-5 myTextWhite ">
             Progetto di creazione di uno shop onlinee che si occupa della
-            vendita di scarpe, un esercizio utile per apprendere e migliore
+            vendita di scarpe, un esercizio utile per apprendere e migliorare
             tutte le features di React, lavorarando per componenti e funzioni.
           </p>
           <button className="btn-grad mybutton d-flex align-content-center justify-content-center">

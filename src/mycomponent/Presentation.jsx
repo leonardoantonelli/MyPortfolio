@@ -31,11 +31,11 @@ function Presentation() {
             </div>
             <p className="myTextWhite">
               Sono un giovane designer, laureato in Disegno Industriale / Design
-              e Progettazzione nell'Università di Roma La Sapienza. Frequentato
-              il corso di Front-End e Back-end presso la scuola Epicode,
-              imparando dalle basi dell'HTML e CSS arrivando fino ad esplorare
-              tutti i principi di React e Bootstrap, avendo un quadro completo
-              dello sviluppo di pagine Web.
+              e Progettazzione nell'Università di Roma La Sapienza. Ho
+              frequentato il corso di Front-End e Back-end presso la scuola
+              Epicode, imparando dalle basi dell'HTML e CSS arrivando fino ad
+              esplorare tutti i principi di React e Bootstrap, avendo un quadro
+              completo dello sviluppo di pagine Web.
             </p>
             <a href=" mailto:antonellileonardodesign@gmail.com">
               <button className="btn-grad mybutton d-flex align-content-center justify-content-center">

@@ -26,7 +26,7 @@ function MyAccordin() {
           <img src={icon2} alt="" className="h-50" />
           <h4>Web Design</h4>
           <p>
-            Uno dei miei punti deboli è senza dubbio la passione e lo studio che
+            Uno dei miei punti forti è senza dubbio la passione e lo studio che
             ci metto nella UI e UX Design.
           </p>
         </Col>
