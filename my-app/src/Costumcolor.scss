@@ -1,0 +1,432 @@
+$blue: #087e8b ;
+$red: #ff5a5f;
+$black: rgb(15,15,15) ;
+$white: #f5f5f5;
+$blackdark: rgb(15,15,15) ;
+
+
+body {
+background: rgb(15,15,15) !important;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.myRedBg {
+  background-color: $red;
+}
+
+.myTextRed {
+  color: $red;
+}
+
+.myBluBg {
+  background-color: $blue !important;
+}
+
+.myTextBlu {
+  color: $blue;
+}
+
+.myBlackBg {
+  background-color: $black !important;
+}
+
+.myWhiteBg {
+  background-color: $white !important;
+}
+.myBlackDarkBg{
+ background: $blackdark ;
+}
+.myTextWhite
+ {
+  color:white!important;
+}
+
+.presentatio{
+    display: flex !important;
+      position: relative;
+        z-index: 10000;
+    
+}
+
+.presentatio Col{
+  overflow: hidden;
+}
+.mycard{
+    position: relative !important;
+    width: 300px !important;
+    height: 300px !important;
+    margin: 20px 20px !important;
+  box-shadow: 0 10px 25px rgb(0,0,0, 0.2);
+ backdrop-filter: blur(15px);
+ background: $blackdark ;
+   overflow: hidden;
+
+}
+
+.myrounded{
+
+   -webkit-box-shadow: 0px 11px 15px 5px rgba(0,0,0,0.45); 
+box-shadow: 0px 11px 15px 5px rgba(0,0,0,0.45);
+
+}
+.figure{
+
+position: absolute;
+  width: 100%;
+  height: 100%;
+ background:$red;
+  clip-path: ellipse(34% 11% at 50% 0%);
+ overflow: visible;
+}
+.figure:hover{
+   clip-path: ellipse(100% 100% at 50% 0%);
+    transition: 0.5s ease-in-out;
+}
+
+
+hr {
+
+  /* Set the hr color */
+  color: #ffffff;  /* old IE */
+ border-top: 2px solid rgb(255, 255, 255) !important}
+  /* MyAccordin
+
+  .myccordion,
+  button{
+     color: white !important;
+    background-color: black  !important;
+border: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}*/
+
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+}
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  &-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+   
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+    &:hover {
+      background: darken($black, 10%);
+   
+    }
+    &::after {
+     content: "\276F"; 
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transform: rotate(90deg);
+      transition: all .35s;
+      
+    }
+  }
+  &-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: $white;
+  
+    transition: all .35s;
+  }
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+   
+    cursor: pointer;
+    
+    
+  }
+}
+
+// :hover
+label:hover {
+  + .tab-label {
+    background: darken($blue, 10%);
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+}
+
+ /*  CSS CARD PROJECT
+  */ 
+  .containerp{
+  position: relative;
+}
+
+.containerp .cardp{
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: $blackdark ;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 11px 15px 5px rgba(0,0,0,0.45); 
+box-shadow: 0px 11px 15px 5px rgba(0,0,0,0.45);
+}
+
+.containerp .cardp:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $red;
+  clip-path: circle(150px at 80% 20%);
+  transition: 0.5s ease-in-out;
+}
+
+.containerp .cardp:hover:before{
+  clip-path: circle(300px at 80% -20%);
+}
+
+.containerp .cardp:after{
+ /**/ content: 'Silv'; 
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 12em;
+  font-weight: 800;
+  font-style: italic;
+  color: $blue
+}
+
+.containerp .cardp .imgBx{
+position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.containerp .cardp:hover .imgBx{
+  top: 0%;
+  transform: translateY(0%);
+    
+}
+
+.containerp .cardp .imgBx img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-25deg);
+  width: 270px;
+}
+
+.containerp .cardp .contentBx{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.containerp .cardp:hover .contentBx{
+  height: 210px;
+}
+
+.containerp .cardp .contentBx h2{
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+}
+
+.containerp .cardp .contentBx .size, .containerp .cardp .contentBx .color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s;opacity: 0;
+  visibility: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.containerp .cardp:hover .contentBx .size{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.containerp .cardp:hover .contentBx .color{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+}
+
+.containerp .cardp .contentBx .size h3{
+  color: #fff;
+  font-weight: 300px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.containerp .cardp .contentBx .size img{
+  width: 26px;
+  height: 26px;
+  
+  margin: 0 5px;
+  transition: 0.5s;
+
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+
+.containerp .cardp .contentBx a{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #111;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+  margin-top: 0;
+}
+
+.containerp .cardp:hover .contentBx a{
+  opacity: 1;
+  transform: translateY(0px);
+  transition-delay: 0.75s;
+  
+}
+
+// Css Nuovo
+ // up and down smart1 e smart2
+.vert-move{
+ 
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.vert-move2{
+ 
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover2 1s infinite  alternate;
+}
+.vert-move2 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover2 1s infinite  alternate;
+}
+@-webkit-keyframes mover2 {
+    0% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+@keyframes mover2 {
+    0% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+ // dimension smart1 smart2
+
+ @media (max-width: 568px){
+ 
+ }
+
+ //dimenion pc1
+ .imgpc{
+  width: 100%;
+ }
+
+ // icon progrms
+ .programs-icon {
+    width:50px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+    display: inline-flex;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+   }
+
+   .mybutton{
+    width: 200px;
+   
+    height: 50px;
+  
+   }
+
+            
+         .btn-grad {
+            background-image: linear-gradient(to right, $red 0%, $blue  51%, $red 100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #000000;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
+.textdecorationnone{
+  text-decoration: none;
+}
+
+.mymargintop{
+
+}

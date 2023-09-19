@@ -1,0 +1,35 @@
+
+.carousel{
+    display: grid;
+grid-auto-columns: column;
+scroll-behavior: auto;
+gap: 1.2rem;
+overflow: auto;
+overscroll-behavior-x: contain;
+scroll-snap-type: x mandatory;
+scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display:none;
+}
+
+.card{
+    scroll-snap-align: start;
+    border-radius: 30px;
+    min-height: 200px;
+    min-width: 300px;
+    display: flex;
+
+}
+
+.dimens{
+    height: 547px;
+   
+    overflow: hidden;
+}
+
+.imgsmart{
+    width: 380px;
+    
+}

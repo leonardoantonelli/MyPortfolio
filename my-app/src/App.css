@@ -1,0 +1,114 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Rubik:wght@300;400;700;900&display=swap');
+.App {
+  text-align: center;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+  font-family: 'Poppins', sans-serif !important;
+ background-color: #121212 !important;}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+  /*  SASS FILE
+  hr {
+
+Set the hr color
+  color: #ffffff;  /* old IE 
+ border-top: 2px solid rgb(255, 255, 255) !important} */
+  
+/* CSS DELLA BARRASCORREVOLE*/
+.myrounded{
+  border-radius: 60px !important;
+
+}
+
+/* CSS DELLA BARRASCORREVOLE*/
+.marquee-w{
+  overflow: hidden;
+  }
+ h1{
+  display: inline-block;
+  width: 100%;
+ white-space: nowrap;
+ padding-left: 0 8rem;
+ color: white;
+ letter-spacing: 1px;
+ 
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translate(0%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.dimensionnav{
+  height:80px;
+}
+
+.social-icon a {
+    width: 42px;
+    height: 42px;
+    padding: 30px;
+    background: rgba(217, 217, 217, 0.1);
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.social-icon a::before{
+    content: "";
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: scale(0);
+	transition: 0.3s ease-in-out;
+}
+.social-icon a:hover::before, {
+    transform: scale(1);
+}
+
+.social-icon a img {
+	width: 40%;
+	z-index: 1;
+	transition: 0.3s ease-in-out;
+}
+.social-icon a:hover img {
+	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}

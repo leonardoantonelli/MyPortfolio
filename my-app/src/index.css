@@ -1,0 +1,43 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fade-in-bottom {
+	-webkit-animation: fade-in-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.imgbox{
+ /*    position: relative !important;
+    width: 300px !important;
+    height: 300px !important;
+    margin: 20px 20px !important;
+ background-color:rgba(255, 255, 255, 0.2) !important;
+ box-shadow: 0 10px 25px rgb(0,0,0, 0.2);
+ backdrop-filter: blur(15px);
+    position: relative;
+  */ 
+  transform: translateY(-100px);
+}
+
+.imgbox :hover{
+   transform: translateY(-100px);
+}
+.imgsize{
+    max-width: 100%;
+}
+
+/* .rotatepic10{
+  transform: rotate(10deg)translate(100px);
+
+
+}
+.rotatepic20{
+  transform: rotate(20deg);
+} 
+  */ 
+
+
+ 
