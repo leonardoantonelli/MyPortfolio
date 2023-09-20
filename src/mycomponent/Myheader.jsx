@@ -5,9 +5,6 @@ import MyAccordin from "./MyAccordin";
 import Footer from "./Footer";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Silv from "./SilvProject";
-import { Link } from "react-router-dom";
-import { BrowserRouter, Switch, Route, Routes } from "react-router-dom";
 
 function ColorSchemesExample() {
   const [activeLink, setActiveLink] = useState("home");
