@@ -8,6 +8,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Silv from "./SilvProject";
 import { Link } from "react-router-dom";
 import { BrowserRouter, Switch, Route, Routes } from "react-router-dom";
+
 function ColorSchemesExample() {
   const [activeLink, setActiveLink] = useState("home");
   const onUpdateActiveLink = (value) => {
@@ -16,49 +17,49 @@ function ColorSchemesExample() {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar className="myBlackDarkBg myTextWhite shadow navbar-expand-lg">
         <Container>
-          <Navbar.Brand href="#home">
-            <h1>Leonardo Antonelli </h1>
+          <Navbar.Brand
+            href="#home"
+            className=" fw-bolder myTextWhite dimensheadertitle "
+          >
+            Portfolio
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="myWhiteBg myTextWhite " />
-          <Navbar.Collapse id="basic-navbar-nav" className="myTextWhite ">
-            <Nav className="me-auto myTextWhite">
-              <Nav.Link
-                href="#skills"
-                className={
-                  activeLink === "skills"
-                    ? "active navbar-link myTextWhite"
-                    : "navbar-link myTextWhite"
-                }
-                onClick={() => onUpdateActiveLink("skills")}
-              >
-                Skills
-              </Nav.Link>
-              <Nav.Link
-                href="#projects"
-                className={
-                  activeLink === "projects"
-                    ? "active navbar-link myTextWhite"
-                    : "navbar-link myTextWhite"
-                }
-                onClick={() => onUpdateActiveLink("projects")}
-              >
-                Projects
-              </Nav.Link>
-              <Nav.Link
-                href="#contact"
-                className={
-                  activeLink === "contact"
-                    ? "active navbar-link myTextWhite "
-                    : "navbar-link myTextWhite"
-                }
-                onClick={() => onUpdateActiveLink("home")}
-              >
-                Contatti
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+          <Nav className="me-auto fs-4 d-sm-none d-md-flex">
+            <Nav.Link
+              href="#skills"
+              className={
+                activeLink === "skills"
+                  ? "active navbar-link myTextWhite dimensheader "
+                  : "navbar-link myTextWhite dimensheader"
+              }
+              onClick={() => onUpdateActiveLink("skills")}
+            >
+              Skills
+            </Nav.Link>
+            <Nav.Link
+              href="#projects"
+              className={
+                activeLink === "projects"
+                  ? "active navbar-link myTextWhite dimensheader"
+                  : "navbar-link myTextWhite dimensheader"
+              }
+              onClick={() => onUpdateActiveLink("projects")}
+            >
+              Progetti
+            </Nav.Link>
+            <Nav.Link
+              href="#contact"
+              className={
+                activeLink === "contact"
+                  ? "active navbar-link myTextWhite dimensheader"
+                  : "navbar-link myTextWhite dimensheader"
+              }
+              onClick={() => onUpdateActiveLink("home")}
+            >
+              Contatti
+            </Nav.Link>
+          </Nav>
         </Container>
       </Navbar>
     </>

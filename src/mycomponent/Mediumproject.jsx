@@ -1,12 +1,9 @@
 import { Col, Row } from "react-bootstrap";
 import imgmed from "../assets/img/medium/Risorsa 2.png";
 import htmlicon from "../assets/img/icon/htmlicon.png";
-
-import bootstrapicon from "../assets/img/icon/bootstrapicon.png";
 import cssicon from "../assets/img/icon/cssicon.png";
 import jsicon from "../assets/img/icon/jsicon.png";
-import reacticon from "../assets/img/icon/reacticon.png";
-import sassicon from "../assets/img/icon/sassicon.png";
+
 function MediumProject() {
   return (
     <>

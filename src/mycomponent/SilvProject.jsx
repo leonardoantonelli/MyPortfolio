@@ -4,19 +4,17 @@ import smart2 from "../assets/img/SilvProject/smart2n.png";
 import pc1 from "../assets/img/SilvProject/tablet_and_laptop_on_transparent_background.png";
 import htmlicon from "../assets/img/icon/htmlicon.png";
 import "animate.css";
-import TrackVisibility from "react-on-screen";
+
 import bootstrapicon from "../assets/img/icon/bootstrapicon.png";
 import cssicon from "../assets/img/icon/cssicon.png";
 import jsicon from "../assets/img/icon/jsicon.png";
-
-import { isVisible } from "@testing-library/user-event/dist/utils";
 
 function SilvProject() {
   return (
     <>
       <Row id="projects" className="d-flex  align-items-center my-3">
         <h2 className="myTextWhite d-flex fw-bolder justify-content-center my-5">
-          My Projects:
+          I miei progetti:
         </h2>
 
         <Col className=" d-flex align-items-center flex-column mb-3">
@@ -53,12 +51,12 @@ function SilvProject() {
         </Col>
 
         <Col
-          className="d-flex aligh-items-center text-center flex-column
+          className="d-flex aligh-items-center text-center flex-column mt-3
          "
         >
           <div className="text-center ">
             {" "}
-            <h5 className="myTextWhite"> Software utillizzati</h5>
+            <h5 className="myTextWhite "> Software utillizzati</h5>
           </div>
           <div className="d-flex justify-content-center">
             {" "}

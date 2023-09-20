@@ -11,8 +11,8 @@ function Presentation() {
             md={8}
             className=" px-2 mx-2 d-flex flex-column justify-content-center"
           >
-            <p className="myTextBlu fw-bold px-2 mx-2">
-              Welcome to my Portfolio
+            <p className="myTextBlu fw-bold px-2 mx-2 mt-5">
+              Benvenuto sul mio Portfolio
             </p>
             <h2 className="myTextWhite px-2 mx-2 ">
               {" "}
@@ -27,7 +27,7 @@ function Presentation() {
               </h3>
               <ul className="dynamic-txts myTextRed display-6 fw-bold d-none d-lg-block">
                 <li>
-                  <p>Grafic Designer</p>{" "}
+                  <p>Graphic Designer</p>{" "}
                 </li>
                 <li>
                   <p>Junior Front-Ender</p>{" "}

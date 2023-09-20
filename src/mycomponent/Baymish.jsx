@@ -1,6 +1,4 @@
-import reacticon from "../assets/img/icon/reacticon.png";
-import sassicon from "../assets/img/icon/sassicon.png";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import img1 from "../assets/img/Baymish/1.jpg";
 import img2 from "../assets/img/Baymish/2.jpg";
 import img3 from "../assets/img/Baymish/3.jpg";
@@ -36,7 +34,7 @@ function BaymishProject() {
             />
           </MDBCarousel>{" "}
         </Col>
-        <Col className=" d-flex align-items-center flex-column">
+        <Col className=" d-flex align-items-center flex-column mt-4">
           <h2 className="myTextBlu fw-bolder">Baymish</h2>
           <h5 className="myTextRed d-flex fw-bolder justify-content-center">
             {" "}

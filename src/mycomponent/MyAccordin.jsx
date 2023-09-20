@@ -10,14 +10,14 @@ function MyAccordin() {
         id="skills"
         className="myTextWhite d-flex fw-bolder justify-content-center my-5 mymargintop"
       >
-        My Skill Set:
+        Il mio Skill Set:
       </h2>
       <Row className="mt-6 d-sm-flex flex-md-column align-items-md-center justify-md-content-center d-lg-flex flex-lg-row ">
-        <Col className="d-flex flex-column align-items-center justify-content-center">
-          <div className="mycard ">
+        <Col className="d-flex flex-column align-items-center justify-content-center ">
+          <div className="mycard myBlackBg myTextWhite">
             {" "}
             <img src={icon1} alt="" className="h-50 p-2" />
-            <h4>Grafic Design</h4>
+            <h4 className="fw-bold">Grafic Design</h4>
             <p>
               Inizialmente formatosi come grafico e renderista, nutro una
               profonda passione per tutto ciò che riguarda la comunicazione
@@ -25,11 +25,11 @@ function MyAccordin() {
             </p>
           </div>
         </Col>
-        <Col className="d-flex flex-column align-items-center justify-content-center">
-          <div className="mycard ">
+        <Col className="d-flex flex-column align-items-center justify-content-center ">
+          <div className="mycard myBlackBg myTextWhite">
             {" "}
             <img src={icon2} alt="" className="h-50 p-2" />
-            <h4>Web Design</h4>
+            <h4 className="fw-bold">Web Design</h4>
             <p>
               Uno dei miei punti di forza risiede nella dedizione e nello studio
               che investo nel campo dell'UI e dell'UX Design.
@@ -37,10 +37,10 @@ function MyAccordin() {
           </div>
         </Col>
         <Col className="d-flex flex-column align-items-center justify-content-center w-100">
-          <div className="mycard ">
+          <div className="mycard myBlackBg myTextWhite">
             {" "}
             <img src={icon3} alt="" className="h-50 p-2" />
-            <h4>Creatività</h4>
+            <h4 className="fw-bold">Creatività</h4>
             <p>
               {" "}
               Mi piace considerarmi un 'Architetto digitale' con una miriade di
