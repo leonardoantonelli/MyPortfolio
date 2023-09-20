@@ -43,9 +43,10 @@ function BaymishProject() {
             Grafic Design{" "}
           </h5>{" "}
           <p className="px-2 mx-2 myTextWhite ">
-            Lavorando sulla comunicazione social di Baymish, neo brand di
-            Jewllery Design, ho sviluppato moodboard e foto per i vari social,
-            seguendo la mia passione per la fotografia e l'editing.
+            Nella gestione della comunicazione sui social media per Baymish, un
+            nuovo brand nel campo del Jewelry Design, ho creato moodboard e
+            immagini per le diverse piattaforme, sfruttando la mia passione per
+            la fotografia e l'editing.
           </p>
         </Col>
       </Row>

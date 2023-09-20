@@ -19,9 +19,11 @@ function Nikeshop() {
             Ui design{" "}
           </h5>{" "}
           <p className="px-2 mx-2 myTextWhite ">
-            Progetto di creazione di uno shop onlinee che si occupa della
-            vendita di scarpe, un esercizio utile per apprendere e migliore
-            tutte le features di React, lavorarando per componenti e funzioni.
+            Mi sono dedicato in un progetto di creazione di un negozio online
+            specializzato nella vendita di calzature. Questo esercizio è stato
+            un'opportunità preziosa per acquisire e perfezionare tutte le
+            funzionalità di React, lavorando in modo dettagliato su componenti e
+            funzioni.
           </p>
           <a
             href="https://github.com/leonardoantonelli/MyCapstone1 "

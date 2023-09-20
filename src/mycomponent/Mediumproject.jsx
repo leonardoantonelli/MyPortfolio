@@ -19,11 +19,11 @@ function MediumProject() {
             Front-end Develop{" "}
           </h5>{" "}
           <p className=" myTextWhite px-2 mx-2 ">
-            Il progetto Medium è stato ricreare fedelmente il sito ufficiale
-            medium.com, focalizandosi sulle tecniche basiche di CSS e
-            Javascript. Durante il corso Epicode ho potuto approfondire e fare
-            esperienza esercitandomi ricreando copie di noti siti web come
-            Netflix, Spotify, ecc.
+            Nel progetto Medium, ho riprodotto il sito ufficiale medium.com,
+            mettendo in evidenza le tecniche di base di CSS e Javascript. Nel
+            contesto del corso Epicode, ho avuto l'opportunità di approfondire
+            le mie competenze esercitandomi nella replica di noti siti web, tra
+            cui Netflix, Spotify e altri.
           </p>
           <div className="text-center ">
             {" "}

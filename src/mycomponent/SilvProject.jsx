@@ -26,12 +26,10 @@ function SilvProject() {
             Ui design{" "}
           </h5>
           <p className=" myTextWhite px-2 mx-2 ">
-            Il progetto Silv si è basato sulla ricerca e studio di un'estetica
-            web che si potesse adattare all'azienda produttrice di creme che ha
-            già una brand identity forte. Il progetto consiste in una
-            landing-page composta di una main section d'impatto, una breve
-            storia dell'azienda, una carrellata di quattro prodotti e una
-            section che parla dello staff.
+            Il progetto Silv ha mirato a adattare l'estetica web all'azienda
+            produttrice di creme, con una landing page che include una sezione
+            d'impatto, la storia aziendale, quattro prodotti principali e una
+            sezione sul team.
           </p>
           <a
             href="https://github.com/leonardoantonelli/ "

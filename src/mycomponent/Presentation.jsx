@@ -50,12 +50,12 @@ function Presentation() {
               </ul>
             </div>
             <p className="myTextWhite px-2 mx-2">
-              Sono un giovane designer, laureato in Disegno Industriale / Design
-              e Progettazzione nell'Università di Roma La Sapienza. Ho
-              frequentato il corso di Front-End e Back-end presso la scuola
-              Epicode, imparando dalle basi dell'HTML e CSS arrivando fino ad
-              esplorare tutti i principi di React e Bootstrap, avendo un quadro
-              completo dello sviluppo di pagine Web.
+              Sono un giovane designer laureato in Disegno Industriale/Design e
+              Progettazione presso l'Università di Roma La Sapienza. Ho seguito
+              il corso di Front-End e Back-End presso la scuola Epicode,
+              acquisendo competenze che vanno dalle fondamenta di HTML e CSS
+              fino all'esplorazione dei principi di React e Bootstrap. Questo mi
+              ha fornito una solida base per lo sviluppo di pagine web."
             </p>
             <a href=" mailto:antonellileonardodesign@gmail.com">
               <button className="btn-grad2 px-2 mx-2 fw-bold">

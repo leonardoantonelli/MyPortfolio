@@ -16,34 +16,35 @@ function MyAccordin() {
         <Col className="d-flex flex-column align-items-center justify-content-center">
           <div className="mycard ">
             {" "}
-            <img src={icon1} alt="" className="h-50" />
+            <img src={icon1} alt="" className="h-50 p-2" />
             <h4>Grafic Design</h4>
             <p>
-              Nato come grafico e renderista sono appassiato a tutto ciò che
-              comprende la comunicione visiva e multimediale.
+              Inizialmente formatosi come grafico e renderista, nutro una
+              profonda passione per tutto ciò che riguarda la comunicazione
+              visiva e multimediale.
             </p>
           </div>
         </Col>
         <Col className="d-flex flex-column align-items-center justify-content-center">
           <div className="mycard ">
             {" "}
-            <img src={icon2} alt="" className="h-50" />
+            <img src={icon2} alt="" className="h-50 p-2" />
             <h4>Web Design</h4>
             <p>
-              Uno dei miei punti forti è senza dubbio la passione e lo studio
-              che ci metto nella UI e UX Design.
+              Uno dei miei punti di forza risiede nella dedizione e nello studio
+              che investo nel campo dell'UI e dell'UX Design.
             </p>
           </div>
         </Col>
         <Col className="d-flex flex-column align-items-center justify-content-center w-100">
           <div className="mycard ">
             {" "}
-            <img src={icon3} alt="" className="h-50" />
+            <img src={icon3} alt="" className="h-50 p-2" />
             <h4>Creatività</h4>
             <p>
               {" "}
-              Mi piace pensare di essere un "Architetto digitale", dalle mille
-              idee .
+              Mi piace considerarmi un 'Architetto digitale' con una miriade di
+              idee.
             </p>
           </div>
         </Col>
