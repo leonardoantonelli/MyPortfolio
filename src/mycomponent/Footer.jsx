@@ -50,7 +50,7 @@ export default function App() {
                 href="tel:3285405551"
                 className="textdecorationnone myTextWhite"
               >
-                <FiPhone /> 3285405551
+                <FiPhone /> +39 3285405551
               </a>
             </h6>
           </Col>
