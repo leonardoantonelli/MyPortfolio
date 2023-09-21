@@ -22,32 +22,14 @@ function Presentation() {
               className="d-flex 
             "
             >
-              <h3 className="static-txt display-6 myTextWhite px-2 mx-2 d-none d-lg-block ">
-                sono un{" "}
-              </h3>
-              <ul className="dynamic-txts myTextRed display-6 fw-bold d-none d-lg-block">
-                <li>
-                  <p>Graphic Designer</p>{" "}
-                </li>
-                <li>
-                  <p>Junior Front-Ender</p>{" "}
-                </li>
-                <li>
-                  <p>3D Model Lover</p>{" "}
-                </li>
-              </ul>
-
-              <ul className="dynamic-txts2 myTextRed display-6 fw-bold  d-lg-none">
-                <li>
-                  <p>Graphic Designer</p>{" "}
-                </li>
-                <li>
-                  <p>Junior Front-End Dev</p>{" "}
-                </li>
-                <li>
-                  <p>3D Model Lover</p>{" "}
-                </li>
-              </ul>
+              <div class="animated-text">
+                <div class="line fw-bold myTextRed ">Graphic Designer</div>
+                <div class="line fw-bold">Junior Front-End Developer</div>
+                <div class="line fw-bold myTextRed myTextBlu">
+                  3D Model Lover
+                </div>
+                <div class="line fw-bold myTextRed">Graphic Design </div>
+              </div>
             </div>
             <p className="myTextWhite px-2 mx-2">
               Sono un giovane designer laureato in Disegno Industriale/Design e
