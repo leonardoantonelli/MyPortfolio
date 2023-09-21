@@ -39,7 +39,7 @@ function Presentation() {
 
               <ul className="dynamic-txts2 myTextRed display-6 fw-bold  d-lg-none">
                 <li>
-                  <p>Grafic Designer</p>{" "}
+                  <p>Graphic Designer</p>{" "}
                 </li>
                 <li>
                   <p>Junior Front-End Dev</p>{" "}
@@ -55,7 +55,7 @@ function Presentation() {
               il corso di Front-End e Back-End presso la scuola Epicode,
               acquisendo competenze che vanno dalle fondamenta di HTML e CSS
               fino all'esplorazione dei principi di React e Bootstrap. Questo mi
-              ha fornito una solida base per lo sviluppo di pagine web."
+              ha fornito una solida base per lo sviluppo di pagine web.
             </p>
             <a href=" mailto:antonellileonardodesign@gmail.com">
               <button className="btn-grad2 px-2 mx-2 fw-bold">
