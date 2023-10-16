@@ -10,7 +10,7 @@ import sassicon from "../assets/img/icon/sassicon.png";
 function Nikeshop() {
   return (
     <>
-      <Row className="d-flex  align-items-center my-3 mt-3">
+      <Row className="d-flex  align-items-center my-3 mt-3" id="adidas">
         <img src={imgshop} alt="" />
         <Col className=" d-flex align-items-center flex-column">
           <h2 className="myTextBlu fw-bolder mt-3"> Shop Nike</h2>

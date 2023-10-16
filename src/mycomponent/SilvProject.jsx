@@ -13,12 +13,11 @@ function SilvProject() {
   return (
     <>
       <Row id="projects" className="d-flex  align-items-center my-3">
-        <h2 className="myTextWhite d-flex fw-bolder justify-content-center my-5">
-          I miei progetti:
-        </h2>
-
         <Col className=" d-flex align-items-center flex-column mb-3">
-          <h2 className="myTextBlu fw-bolder"> Silv</h2>
+          <h2 className="myTextBlu fw-bolder" id="silv">
+            {" "}
+            Silv
+          </h2>
           <h5 className="myTextRed d-flex fw-bolder justify-content-center">
             {" "}
             Ui design{" "}
@@ -30,7 +29,7 @@ function SilvProject() {
             sezione sul team.
           </p>
           <a
-            href="https://github.com/leonardoantonelli/ "
+            href="https://leonardoantonelli.github.io/SilvProject/"
             className="text-decoration-none myTextWhite"
           >
             <button className="btn-grad2 fw-bold mb-6">Visita</button>
@@ -45,7 +44,7 @@ function SilvProject() {
           <img src={smart2} alt="" className=" vert-move2 w-50" />
         </Col>
       </Row>
-      <Row className="d-flex  align-items-center my-3 ">
+      <Row className="d-flex  align-items-center my-4 ">
         <Col lg="8" s="6">
           <img src={pc1} alt="" className=" w-100" />
         </Col>

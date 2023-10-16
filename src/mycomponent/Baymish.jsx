@@ -11,7 +11,7 @@ import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 function BaymishProject() {
   return (
     <>
-      <Row className="d-flex  align-items-center my-5">
+      <Row className="d-flex  align-items-center my-5" id="baymish">
         <Col xs={12} lg={6} className=" d-flex align-items-center flex-column">
           <MDBCarousel>
             <MDBCarouselItem
@@ -60,19 +60,19 @@ function BaymishProject() {
         <Col>
           <MDBCarousel>
             <MDBCarouselItem
-              className=" d-block dimens"
+              className="w-100 d-block "
               itemId={1}
               src={img16}
               alt="..."
             />
             <MDBCarouselItem
-              className=" d-block dimens "
+              className="w-100 d-block  "
               itemId={2}
               src={img14}
               alt="..."
             />
             <MDBCarouselItem
-              className=" d-block dimens"
+              className="w-100 d-block "
               itemId={3}
               src={img15}
               alt="..."

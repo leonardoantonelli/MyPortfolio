@@ -9,7 +9,6 @@ import "../src/mycomponent/scss/MyAccordin.scss";
 import "../src/mycomponent/scss/Presentation.scss";
 import "../src/mycomponent/scss/Baymish.scss";
 import "../src/mycomponent/scss/Myheader.scss";
-
 import MyAccordin from "./mycomponent/MyAccordin";
 import SilvProject from "./mycomponent/SilvProject";
 import MediumProject from "./mycomponent/Mediumproject";
@@ -17,6 +16,9 @@ import BaymishProject from "./mycomponent/Baymish";
 import Nikeshop from "./mycomponent/Nikeshop";
 import Footer from "./mycomponent/Footer";
 import { Router, Route } from "react-router-dom";
+import Mypreviews from "./mycomponent/MyPreviews";
+import UncontrolledExample from "./mycomponent/Carouselbaribie";
+import Barbiepage from "./mycomponent/BarbiePage";
 function App() {
   return (
     <>
@@ -25,9 +27,12 @@ function App() {
       <Container variant="dark">
         <Presentation />
         <MyAccordin></MyAccordin>
+        <Mypreviews></Mypreviews>
         <SilvProject></SilvProject>
-        <MediumProject></MediumProject>
+        <Barbiepage></Barbiepage>
         <BaymishProject></BaymishProject>
+        <MediumProject></MediumProject>
+
         <Nikeshop></Nikeshop>
       </Container>
       <Footer></Footer>

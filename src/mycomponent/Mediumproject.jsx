@@ -8,7 +8,7 @@ function MediumProject() {
   return (
     <>
       {" "}
-      <Row className="d-flex  align-items-center my-3">
+      <Row className="d-flex  align-items-center my-3" id="medium">
         <Col md={12} lg={6} className=" d-flex align-items-center flex-column">
           <h2 className="myTextBlu fw-bolder"> Medium </h2>
           <h5 className="myTextRed d-flex fw-bolder justify-content-center">
