@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.7c84ac39.css",
-    "main.js": "/MyPortfolio/static/js/main.230759bf.js",
+    "main.css": "/MyPortfolio/static/css/main.bae65d0c.css",
+    "main.js": "/MyPortfolio/static/js/main.8729d0f6.js",
     "static/js/787.28cb0dcd.chunk.js": "/MyPortfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/JewelleryCollection-9.jpg": "/MyPortfolio/static/media/JewelleryCollection-9.6c265f06036274358f96.jpg",
     "static/media/JewelleryCollection-4.jpg": "/MyPortfolio/static/media/JewelleryCollection-4.a50d059280baf11f3362.jpg",
@@ -20,12 +20,12 @@
     "static/media/sassicon.png": "/MyPortfolio/static/media/sassicon.b7e438d5d708ccf61ffc.png",
     "static/media/jsicon.png": "/MyPortfolio/static/media/jsicon.aa6ee626dd52d03a8048.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.7c84ac39.css.map": "/MyPortfolio/static/css/main.7c84ac39.css.map",
-    "main.230759bf.js.map": "/MyPortfolio/static/js/main.230759bf.js.map",
+    "main.bae65d0c.css.map": "/MyPortfolio/static/css/main.bae65d0c.css.map",
+    "main.8729d0f6.js.map": "/MyPortfolio/static/js/main.8729d0f6.js.map",
     "787.28cb0dcd.chunk.js.map": "/MyPortfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c84ac39.css",
-    "static/js/main.230759bf.js"
+    "static/css/main.bae65d0c.css",
+    "static/js/main.8729d0f6.js"
   ]
 }

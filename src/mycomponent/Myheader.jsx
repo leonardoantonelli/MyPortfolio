@@ -23,39 +23,42 @@ function ColorSchemesExample() {
             Portfolio
           </Navbar.Brand>
           <Nav className="me-auto fs-4 d-sm-none d-md-flex">
-            <Nav.Link
-              href="#skills"
-              className={
-                activeLink === "skills"
-                  ? "active navbar-link myTextWhite dimensheader "
-                  : "navbar-link myTextWhite dimensheader"
-              }
-              onClick={() => onUpdateActiveLink("skills")}
-            >
-              Skills
-            </Nav.Link>
-            <Nav.Link
-              href="#projects"
-              className={
-                activeLink === "projects"
-                  ? "active navbar-link myTextWhite dimensheader"
-                  : "navbar-link myTextWhite dimensheader"
-              }
-              onClick={() => onUpdateActiveLink("projects")}
-            >
-              Progetti
-            </Nav.Link>
-            <Nav.Link
-              href="#contact"
-              className={
-                activeLink === "contact"
-                  ? "active navbar-link myTextWhite dimensheader"
-                  : "navbar-link myTextWhite dimensheader"
-              }
-              onClick={() => onUpdateActiveLink("home")}
-            >
-              Contatti
-            </Nav.Link>
+            <Navbar.Collapse>
+              {" "}
+              <Nav.Link
+                href="#skills"
+                className={
+                  activeLink === "skills"
+                    ? "active navbar-link myTextWhite dimensheader "
+                    : "navbar-link myTextWhite dimensheader"
+                }
+                onClick={() => onUpdateActiveLink("skills")}
+              >
+                Skills
+              </Nav.Link>
+              <Nav.Link
+                href="#projects"
+                className={
+                  activeLink === "projects"
+                    ? "active navbar-link myTextWhite dimensheader"
+                    : "navbar-link myTextWhite dimensheader"
+                }
+                onClick={() => onUpdateActiveLink("projects")}
+              >
+                Progetti
+              </Nav.Link>
+              <Nav.Link
+                href="#contact"
+                className={
+                  activeLink === "contact"
+                    ? "active navbar-link myTextWhite dimensheader"
+                    : "navbar-link myTextWhite dimensheader"
+                }
+                onClick={() => onUpdateActiveLink("home")}
+              >
+                Contatti
+              </Nav.Link>
+            </Navbar.Collapse>
           </Nav>
         </Container>
       </Navbar>
