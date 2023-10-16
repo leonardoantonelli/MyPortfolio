@@ -13,7 +13,7 @@ function Mypreviews() {
       {" "}
       <Container>
         <h2
-          id="skills"
+          id="projects"
           className="myTextWhite d-flex fw-bolder justify-content-center my-5 mymargintop mb-4
           "
         >
