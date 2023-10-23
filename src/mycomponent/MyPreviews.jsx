@@ -22,7 +22,7 @@ function Mypreviews() {
         <Row className="mb-6">
           <Col xs={6} lg={4}>
             {" "}
-            <Mycardpreviews icon={icon4} a={"#projects"} />
+            <Mycardpreviews icon={icon4} a={"#silv"} />
           </Col>{" "}
           <Col xs={6} lg={4}>
             {" "}

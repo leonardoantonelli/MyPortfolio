@@ -12,7 +12,7 @@ import jsicon from "../assets/img/icon/jsicon.png";
 function SilvProject() {
   return (
     <>
-      <Row id="projects" className="d-flex  align-items-center my-3">
+      <Row className="d-flex  align-items-center my-3">
         <Col className=" d-flex align-items-center flex-column mb-3">
           <h2 className="myTextBlu fw-bolder" id="silv">
             {" "}
