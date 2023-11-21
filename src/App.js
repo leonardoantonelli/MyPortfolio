@@ -19,6 +19,7 @@ import { Router, Route } from "react-router-dom";
 import Mypreviews from "./mycomponent/MyPreviews";
 import UncontrolledExample from "./mycomponent/Carouselbaribie";
 import Barbiepage from "./mycomponent/BarbiePage";
+import Ristorant from "./mycomponent/Ristorant";
 function App() {
   return (
     <>
@@ -30,9 +31,9 @@ function App() {
         <Mypreviews></Mypreviews>
         <SilvProject></SilvProject>
         <Barbiepage></Barbiepage>
-        <BaymishProject></BaymishProject>
-        <MediumProject></MediumProject>
 
+        <MediumProject></MediumProject>
+        <Ristorant></Ristorant>
         <Nikeshop></Nikeshop>
       </Container>
       <Footer></Footer>
